@@ -3,7 +3,7 @@
 # Contributor: Fenrihr <fmvm483@gmail.com>
 
 pkgname=rainlendar-pro
-pkgver=2.16.1
+pkgver=2.17.1
 pkgrel=1
 pkgdesc="A desktop Calendar, ToDo list and Event list"
 arch=('x86_64')
@@ -31,7 +31,7 @@ provides=('rainlendar2')
 conflicts=('rainlendar-beta' 'rainlendar-beta-unstable' 'rainlendar-lite')
 
 source=(http://www.rainlendar.net/download/Rainlendar-Pro-$pkgver-amd64.tar.bz2)
-sha256sums=('f994459ef71fad3e8083ebf4c264d2a88c74ce938f4dfc1d5a65ecdceb65f7ce')
+sha256sums=('defef49e121371905b743e76777a5006d05f6ec2e013c59e97d73920501bf2d6')
 
 package() {
   cd ${srcdir}
